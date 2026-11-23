@@ -1,0 +1,8 @@
+{
+  "name": "cited-audit-engine",
+  "version": "0.1.0",
+  "description": "Deterministic AI-visibility scoring engine — the core of Cited.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": { "test": "node --test audit.test.js" }
+}

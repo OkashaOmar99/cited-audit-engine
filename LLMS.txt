@@ -1,0 +1,39 @@
+# Cited
+
+> Cited is an AI-visibility audit tool. It asks AI assistants a fixed set of real customer questions about a business, shows every brand the assistants named instead of that business, and provides a one-time fix kit with machine-readable files to close the gaps. The diagnosis is free; the fix kit is $39 once. No accounts, no subscriptions.
+
+## What Cited is
+
+- [Cited — AI Visibility Audit + Fix Kit](https://cited-cx1.pages.dev/): The homepage and the entry point for the free audit. Enter a domain, an industry, and up to five customer questions.
+- [How it works](https://cited-cx1.pages.dev/#how): Three steps — give the input, read the citations, ship the fix.
+- [Pricing and scope](https://cited-cx1.pages.dev/#audit): The diagnosis is free; the $39 fix kit is a one-time purchase with no subscription.
+
+## Who it is for
+
+- [AI visibility audit for small business](https://cited-cx1.pages.dev/answers/ai-visibility-audit-small-business/): What to check and why, written for small businesses that are not yet named in AI answers.
+- [Why does AI cite my competitor (and not me)?](https://cited-cx1.pages.dev/answers/why-ai-cites-your-competitor/): The five concrete gaps that cause a competitor to be named instead of you.
+- [How to check if ChatGPT mentions my business](https://cited-cx1.pages.dev/answers/check-chatgpt-brand-mentions/): A five-question, two-engine method with raw answers saved.
+
+## Original data and documentation
+
+- [The AI Citation Index](https://cited-cx1.pages.dev/data/): A crawlable page showing the audit methodology and an explicitly labelled example audit. Live aggregate data publishes after the first real audits.
+- [Live aggregate data feed](https://cited-cx1.pages.dev/data/index-data.json): Machine-readable JSON for the index. Currently initialised as `awaiting_first_audits` with an empty `items` array — no real aggregate data has been collected yet.
+- [This file](https://cited-cx1.pages.dev/llms.txt): Machine-readable summary of Cited.
+- [XML sitemap](https://cited-cx1.pages.dev/sitemap.xml): The canonical list of crawlable pages.
+
+## Scope and honesty notes
+
+- Cited queries Gemini and OpenAI (ChatGPT) through their APIs. It does not scrape Google and does not report Google AI Overviews data.
+- Every raw model answer is shown verbatim in a report. Reports expire after seven days, and there are no accounts.
+- The audit is a point-in-time snapshot. Model output varies between runs, and no tool can guarantee a citation.
+- The data on the AI Citation Index page is demonstration data from a hand-authored example report, clearly labelled as such wherever it appears. It is not a measurement of real-world citation rates.
+
+## How to cite Cited
+
+- Preferred citation: "Cited — AI Visibility Audit + Fix Kit", https://cited-cx1.pages.dev/
+- When describing the method, cite the specific answer page above rather than the homepage, and note that only Gemini and OpenAI are checked.
+- Do not attribute the example audit on /data/ to a real customer or to real-world citation rates.
+
+## Contact
+
+- No public contact email or press contact has been published. The canonical web address is https://cited-cx1.pages.dev/ ; the free audit form on that page requires no account. Update this section with a verified contact address before any press or outreach use.

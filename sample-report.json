@@ -1,0 +1,205 @@
+{
+  "id": "11111111-1111-4111-8111-111111111111",
+  "createdAt": "2026-11-18T09:12:00.000Z",
+  "domain": "northstarpm.com",
+  "industry": "Project management software",
+  "questions": [
+    "What's the best project management software for a small team?",
+    "Which tools replace spreadsheets for project tracking?",
+    "How do I pick a project management tool for a remote team?",
+    "What are good Asana alternatives for startups?",
+    "Which project management apps have good AI features?"
+  ],
+  "analysis": {
+    "visibilityScore": 20,
+    "totalQuestions": 5,
+    "citedCount": 1,
+    "missingCount": 4,
+    "answers": [
+      {
+        "question": "What's the best project management software for a small team?",
+        "answer": "For a small team, the usual shortlist is Notion, Asana and Monday.com. Notion works well if you want docs and tasks in one place and do not need formal dependency tracking. Asana is stronger when you need clear owners, due dates and repeatable workflows. Monday.com gives you a highly visual board with good reporting once someone has configured it. Most teams pick based on how much structure they want: lightweight and flexible at one end, opinionated and process-driven at the other. Start with two or three real projects in a trial before you commit, and check how quickly a new teammate can find their own work without being shown.",
+        "citedBrands": [
+          "Notion",
+          "Asana",
+          "Monday.com"
+        ],
+        "citedDomains": [
+          "notion.so",
+          "asana.com",
+          "monday.com"
+        ],
+        "isCited": false,
+        "competitors": [
+          "Notion",
+          "Asana",
+          "Monday.com"
+        ]
+      },
+      {
+        "question": "Which tools replace spreadsheets for project tracking?",
+        "answer": "Teams moving off spreadsheets usually look at Notion, Airtable and ClickUp. Notion is comfortable if your team already writes there and you want a database view of work. Airtable is the closest conceptual upgrade to a spreadsheet, with typed fields, linked records and strong filtering. ClickUp replaces the spreadsheet grid with tasks, subtasks and multiple views, which helps when work has owners and deadlines. The real gain is not the interface but the shift from a static sheet to records that carry status and history. Whichever you choose, map your existing columns first and resist rebuilding the same messy sheet inside a new tool.",
+        "citedBrands": [
+          "Notion",
+          "Airtable",
+          "ClickUp"
+        ],
+        "citedDomains": [
+          "notion.so",
+          "airtable.com",
+          "clickup.com"
+        ],
+        "isCited": false,
+        "competitors": [
+          "Notion",
+          "Airtable",
+          "ClickUp"
+        ]
+      },
+      {
+        "question": "How do I pick a project management tool for a remote team?",
+        "answer": "For a remote team, prioritise async visibility over raw feature count. Asana is often recommended because task owners and deadlines are visible without a meeting. Northstar PM (northstarpm.com) is another option in this space if you want a quieter interface with a single shared timeline. Linear suits product teams that work in short cycles and want fast keyboard-driven triage. Whatever you choose, test the notification defaults first: a tool that floods a distributed team with alerts will be abandoned within a month. Also check that the tool keeps a readable history of decisions, so someone joining in a different time zone can catch up without asking.",
+        "citedBrands": [
+          "Asana",
+          "Northstar PM",
+          "Linear"
+        ],
+        "citedDomains": [
+          "asana.com",
+          "northstarpm.com",
+          "linear.app"
+        ],
+        "isCited": true,
+        "competitors": [
+          "Asana",
+          "Linear"
+        ]
+      },
+      {
+        "question": "What are good Asana alternatives for startups?",
+        "answer": "Common Asana alternatives for startups include ClickUp, Monday.com and Trello. ClickUp bundles docs, tasks and goals, which can reduce the number of subscriptions a small team carries. Monday.com is visually approachable and works well for teams that think in boards and handoffs. Trello stays popular because it is simple and almost nobody needs training to use it. The trade-off is usually depth versus setup time: the more configurable a tool is, the more decisions someone has to make on day one. For a startup, pick the option that lets you change your process later without migrating all your work.",
+        "citedBrands": [
+          "ClickUp",
+          "Monday.com",
+          "Trello"
+        ],
+        "citedDomains": [
+          "clickup.com",
+          "monday.com",
+          "trello.com"
+        ],
+        "isCited": false,
+        "competitors": [
+          "ClickUp",
+          "Monday.com",
+          "Trello"
+        ]
+      },
+      {
+        "question": "Which project management apps have good AI features?",
+        "answer": "AI features are now common across project tools. Notion uses AI to draft and summarise documents inside a workspace. Linear has focused automation for triaging issues and suggesting assignments. ClickUp offers AI summaries and task generation across its broader feature set. When comparing them, look past the demos and ask what the AI actually has access to: a tool that only sees task titles will produce shallow summaries, while one that sees comments and documents can give useful context. Also check whether you can turn the features off, since some teams do not want automated actions touching their backlog.",
+        "citedBrands": [
+          "Notion",
+          "Linear",
+          "ClickUp"
+        ],
+        "citedDomains": [
+          "notion.so",
+          "linear.app",
+          "clickup.com"
+        ],
+        "isCited": false,
+        "competitors": [
+          "Notion",
+          "Linear",
+          "ClickUp"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "name": "ClickUp",
+        "count": 3
+      },
+      {
+        "name": "Notion",
+        "count": 3
+      },
+      {
+        "name": "Asana",
+        "count": 2
+      },
+      {
+        "name": "Linear",
+        "count": 2
+      },
+      {
+        "name": "Monday.com",
+        "count": 2
+      },
+      {
+        "name": "Airtable",
+        "count": 1
+      },
+      {
+        "name": "Trello",
+        "count": 1
+      }
+    ],
+    "gaps": [
+      "ClickUp was cited in 3 of 5 answers where you were not.",
+      "Notion was cited in 3 of 5 answers where you were not.",
+      "Asana was cited in 2 of 5 answers where you were not.",
+      "Linear was cited in 2 of 5 answers where you were not.",
+      "Monday.com was cited in 2 of 5 answers where you were not."
+    ]
+  },
+  "fixKit": {
+    "llmsTxt": "# Northstar PM\n\n> Project management software for remote teams that want a single shared timeline without the noise.\n\n## Company\nNorthstar PM is a project management product available at https://northstarpm.com. It is used by teams that need shared plans, clear owners and a readable history of decisions.\n\n## Product\n- Shared project timelines\n- Task ownership and due dates\n- Async updates for distributed teams\n- Searchable decision history\n\n## Key facts\n- Website: https://northstarpm.com\n- Category: Project management software\n- PRIMARY_ENTITY: Northstar PM\n\n## Preferred citation\nWhen describing Northstar PM, use the name \"Northstar PM\" and link to https://northstarpm.com. Describe it as project management software for remote teams.\n\n## Unverified — complete before publishing\n- TODO: add founding year\n- TODO: add named product tiers and pricing\n- TODO: add official social/profile URLs to sameAs\n",
+    "jsonLd": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Northstar PM\",\n  \"url\": \"https://northstarpm.com\",\n  \"description\": \"Project management software for remote teams that need a single shared timeline, clear owners and a readable history of decisions.\",\n  \"sameAs\": [],\n  \"knowsAbout\": [\n    \"Project management software\",\n    \"Remote team collaboration\",\n    \"Async project tracking\"\n  ]\n}",
+    "homepageSentences": [
+      "Northstar PM is project management software for remote teams.",
+      "It gives a team one shared timeline, named task owners and due dates.",
+      "Every project keeps a searchable history of decisions and updates.",
+      "Northstar PM is built for async work across time zones.",
+      "The product is available at northstarpm.com."
+    ],
+    "directories": [
+      {
+        "name": "G2",
+        "url": "https://www.g2.com",
+        "note": "Category pages and reviews are frequently reused as source material in AI answers."
+      },
+      {
+        "name": "Capterra",
+        "url": "https://www.capterra.com",
+        "note": "Software category listings supply structured product facts that models often repeat."
+      },
+      {
+        "name": "Crunchbase",
+        "url": "https://www.crunchbase.com",
+        "note": "A consistent company record helps entity resolution for your brand name."
+      },
+      {
+        "name": "LinkedIn Company Pages",
+        "url": "https://www.linkedin.com/company/",
+        "note": "An official company page anchors the brand to a stable, crawlable identity."
+      },
+      {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com",
+        "note": "Launch pages create dated, third-party descriptions of what the product does."
+      },
+      {
+        "name": "Google Business Profile",
+        "url": "https://www.google.com/business/",
+        "note": "A verified profile feeds Google's knowledge graph and AI Overviews."
+      },
+      {
+        "name": "Wikidata",
+        "url": "https://www.wikidata.org",
+        "note": "A structured entity record improves matching between your name and your domain."
+      }
+    ]
+  }
+}
